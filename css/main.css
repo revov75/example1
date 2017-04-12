@@ -1,0 +1,168 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: monospace;
+}
+
+body {
+    background-image: url(http://cdn.phys.org/newman/gfx/news/hires/2014/1-newstaugusti.jpg);
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+p {
+    margin: 10px;
+    text-indent: 50px;
+    background-color: rgba(255,255,255,0.7);
+    padding: 10px;
+    border-radius: 10%;
+}
+
+p:nth-child(odd) {
+    color: blue;
+}
+
+p:nth-child(even) {
+    color: green;
+}
+
+.container {
+    width: 960px;
+    margin: 10px auto;
+    background-color: rgba(255,255,255,.5);
+    overflow: auto;
+    border-radius: 2%;
+}
+
+.header {
+    width: 100%;
+    margin: none;
+    background-color: aqua;
+    text-align: center;
+}
+
+.header h1 {
+    padding: 30px;
+}
+
+.menubar {
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 0% 5% 5% 0%;
+    
+}
+
+.menubar > ul {
+    width: 100%;
+    
+}
+
+.menubar > ul > li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 310px;
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+.menubar > ul > li > ul {
+    list-style: none;
+    width: 310px;
+    position: absolute;
+    left: -5000px;
+    border-radius: 0% 0% 40% 40%;
+}
+
+.menubar > ul > li:hover > ul {
+   display: block;
+    left: auto;
+    background-color: rgba(0,155,155,0.5);
+}
+
+.menubar a:hover {
+    font-size: 30px;
+    color:darkblue; 
+}
+
+.sidebar {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+    
+}
+
+.content {
+    padding: 10px;
+    margin: 10px;
+    width: 620px;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgba(0,50,195,.5);
+    border-radius: 5%;
+}
+
+.contentPic1 {
+    float: right;
+    margin: 10px;
+    border-width: 10px;
+    border-style: ridge;
+    border-color: rgba(0,0,0,0.8);
+    border-top-right-radius: 10%;
+}
+
+.contentPic2 {
+    float: left;
+    margin: 0px 10px 0px 10px;
+    border-width: 4px;
+    padding: 5px;
+    background-color: rgba(10,200,10,0.5);
+    border-style: inset;
+    border-color: rgba(0,0,0,0.8);
+    border-top-left-radius: 15%;
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+    background-color: rgba(33, 79, 140, 0.5);
+}
+.footer a{
+    font-size: 14px;
+}
+.footer p, .footer img {
+    display: inline-block;
+    vertical-align: top;
+    text-indent: inherit;
+    margin: none;
+}
+
+.floatRight {
+    float: right;
+}
+
+.medSideMargin {
+    margin:  10px 20px;
+}
+
+.alignCenter {
+    display: block;
+    margin: auto;
+}
+
